@@ -1,0 +1,130 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    background: url('islam-bg.jpg')   ;
+    margin: 0;
+    overflow-x: hidden; 
+}
+/* ... (existing CSS rules) ... */
+img{
+    opacity: 0.3;
+    position: absolute;
+}
+.navbar {
+    background-color: rgb(86, 57, 253,0.3);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;  
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.navbar li:last-child {
+    margin-right: 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.navbar a:hover {
+    color: #000000;
+     font-size: 1.7rem;
+}
+
+/* ... (existing CSS rules) ... */
+#about{
+    text-align: center;
+    max-width: 900px;
+    padding: 25px;
+    margin: 35px auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+}
+.container {
+    max-width: 600px;
+     margin: 10px auto;
+    background-color:rgba(5, 5, 5, 0.3);
+    padding: 12px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+.calligraphy ,h1 {
+   /* Replace 'Your Calligraphy Font' with the desired calligraphy font name */
+    font-size: 3rem;
+    color: antiquewhite;
+    margin-bottom: 20px;
+    /* Add any additional calligraphy styling here */
+}
+
+.line {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.arabic {
+    color: rgb(255, 238, 0);
+    font-weight: bold;
+    font-size: 2.9rem;
+    /* Add any additional Arabic styling here */
+}
+
+.meaning,p {
+    font-size: 18px;
+    color: white;
+    /* Add any additional meaning text styling here */
+}
+
+audio {
+    display: inline-block;
+    margin-top: 20px;
+    width: 80%;
+}
+/* ... (existing CSS rules) ... */
+/* ... (existing CSS rules) ... */
+
+footer {
+    background-color: #0a0131fb;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    width: 90%;
+
+}
+
+footer p {
+    margin: 0;
+}
+
+/* ... (existing CSS rules) ... */
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .navbar li {
+        margin-right: 20px;
+    }
+    #about{
+        max-width: 80%;
+    }
+}
